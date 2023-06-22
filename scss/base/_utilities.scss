@@ -1,0 +1,26 @@
+// Extends //
+// Esta aplicado dentro de los class de los html //
+.d-flex-colum-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $light-color;
+}
+.d-flex-colum-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+    color: $light-color;
+}
+
+// Mixin con Variables //
+// No encontré otro sitio donde usarlo, esta aplicado en pages Ubicación y Gimnasio //
+@mixin imagenes-cards($height, $objet-fit, $filter){
+height: $height;
+object-fit: $objet-fit;
+filter: $filter;
+}

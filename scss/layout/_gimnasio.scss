@@ -1,0 +1,19 @@
+// Carousel Gimnasio //
+.gimnasio-carousel{
+    margin-top: 66px;
+    height: 400px;
+.carousel-item__img{
+    height: 400px;
+    filter: opacity(0.7)
+}
+}
+// Cards Gimnasio //
+.card-activities{
+    border: none;
+    background-color: $main-color;
+    box-shadow: 2px 2px 2px 2px #121212a7;
+    border-radius: 10px;
+    .img-fluid{
+        @include imagenes-cards(100%, cover, none)
+    }
+}

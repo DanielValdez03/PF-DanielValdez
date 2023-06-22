@@ -1,0 +1,67 @@
+//-------------------------------------------------- Media 768PX --------------------------------------------------//
+@media screen and (min-width: 768px){
+    //----------- NavBar ----------//
+    .accion-smartlogo{
+        display: none;
+    }
+    #accion-desklogo{
+        display: block;
+    }
+    .navbar{
+        .nav-link{
+            transition: .7s;
+            &:hover{
+              color: rgb(108, 108, 108);
+            }
+          }
+        #navlink-red{
+            background-color: $secondary-color;
+            color: $light-color;
+            border-radius: 10px;
+            border: none;
+            padding: 6px;
+            margin-left: 8px;
+            transition: 0.7s;
+            &:hover{
+                background-color: $light-color;
+                color: $secondary-color;
+            }
+            }
+    }
+  //----------- Index ------------//
+  
+// Imagenes //
+.inicio-coachs__img, .inicio-inst__img{
+    height: 400px;
+    width: 70%;
+// Enlaces //
+.inicio-enl{
+    width: 40%;
+}
+}
+  //----------- Gimnasio ------------//
+  // Carousel //
+.gimnasio-carousel{
+    height: 92vh;
+.carousel-item__img{
+    height: 92vh;
+    filter: opacity(0.9);
+}
+}
+}
+//-------------------------------------------------- Media 992PX --------------------------------------------------//
+@media screen and (min-width: 992px) {
+    //----- Index -----//
+    .inicio-planes__card{
+        width: 100%;
+    }
+}
+//-------------------------------------------------- Media 1200PX --------------------------------------------------//
+@media screen and (min-width: 1200px){
+//----- Index -----//
+// Imagenes //
+.inicio-coachs__img{
+    height: 500px;
+    width: 70%;
+}
+}

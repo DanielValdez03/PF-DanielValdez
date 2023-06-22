@@ -1,0 +1,17 @@
+// IMPORTS BASE //
+@import "base/vars";
+@import "base/reset";
+@import "base/utilities";
+
+// IMPORTS COMPONENTS //
+@import "components/navbar";
+@import "components/footer";
+
+
+// IMPORTS LAYOUT //
+@import "layout/index";
+@import "layout/gimnasio";
+@import "layout/ubicacion";
+@import "layout/contacto";
+@import "layout/inscribite-ya";
+@import "layout/mediaqueries";

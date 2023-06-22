@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c0c0c;
+  overflow-x: hidden;
+}
+
+span {
+  color: #fe0601;
+}
+
+.d-flex-colum-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.d-flex-colum-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.navbar, .offcanvas {
+  background-color: #000;
+  padding: 10px;
+}
+
+.accion-biglogo {
+  height: 40px;
+  width: 160px;
+}
+
+.accion-smartlogo {
+  height: 40px;
+  width: 70px;
+}
+
+#accion-desklogo {
+  display: none;
+}
+
+footer {
+  background-color: #000;
+}
+
+.footer-div {
+  width: 90%;
+  border-bottom: solid 1px #fff;
+  padding: 30px;
+}
+
+.inicio-enl {
+  color: #fff;
+  padding: 10px 25px;
+  background: #fe0601;
+  border-radius: 46px;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  transition: 0.6s;
+}
+.inicio-enl:hover {
+  background: #fff;
+  color: #fe0601;
+}
+
+.inicio-bienvenida {
+  margin-top: 66px;
+  height: 95vh;
+  background-image: linear-gradient(325deg, rgba(235, 37, 37, 0.8) 0%, rgba(0, 0, 0, 0.8) 74%), url(../assets/imagen-bienvenida.jpg);
+  background-size: cover;
+  background-position: top;
+  font-weight: 400;
+}
+.inicio-bienvenida__h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.inicio-bienvenida__button {
+  background-color: transparent;
+  padding: 10px 25px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.6s;
+  font-weight: bold;
+}
+.inicio-bienvenida__button:hover {
+  background-color: #fff;
+  color: #fe0601;
+}
+
+.inicio-inst {
+  height: 450px;
+}
+.inicio-inst__img {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/imagen-instalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 95%;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.inicio-inst__img:hover {
+  transform: scale(1.03, 1.05);
+}
+
+.inicio-planes__card {
+  height: 100%;
+  width: 80%;
+  padding: 30px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+}
+
+.inicio-coachs__img {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/equipo-accionarte.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 300px;
+  width: 95%;
+  transition: 0.6s;
+}
+.inicio-coachs__img:hover {
+  transform: scale(1.03, 1.05);
+}
+
+.gimnasio-carousel {
+  margin-top: 66px;
+  height: 400px;
+}
+.gimnasio-carousel .carousel-item__img {
+  height: 400px;
+  filter: opacity(0.7);
+}
+
+.card-activities {
+  border: none;
+  background-color: #000;
+  box-shadow: 2px 2px 2px 2px rgba(18, 18, 18, 0.6549019608);
+  border-radius: 10px;
+}
+.card-activities .img-fluid {
+  height: 100%;
+  object-fit: cover;
+  filter: none;
+}
+
+.gimnasio-bienvenida {
+  margin-top: 66px;
+  height: 92vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/imagen-gimnasio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.gimnasio-bienvenida__title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-ubicaciones {
+  border: none;
+  transition: 0.6s;
+}
+.card-ubicaciones:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #000;
+  color: #fff;
+}
+.card-ubicaciones:hover .btn {
+  border: solid 1px #fff;
+  color: #fff;
+}
+.card-ubicaciones .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  filter: none;
+}
+.card-ubicaciones .btn {
+  background: transparent;
+  border: solid 2px #000;
+  font-weight: bold;
+}
+
+.contacto-bienvenida {
+  margin-top: 66px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/contacto-bienvenida.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 900px;
+}
+.contacto-bienvenida__title {
+  margin: 60px 0 10px 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.contacto-bienvenida .btn-fluid {
+  font-size: 20px;
+  color: #fff;
+  background-color: #fe0601;
+  transition: 0.6s;
+}
+.contacto-bienvenida .btn-fluid:hover {
+  color: #fe0601;
+  background-color: #fff;
+}
+.contacto-bienvenida .control-textarea {
+  resize: none;
+  height: 200px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+
+.inscribite {
+  margin-top: 66px;
+  height: 89vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/inscribite-ya.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.inscribite-card {
+  padding: 30px;
+  border-radius: 10px;
+}
+.inscribite-card__img {
+  height: 50px;
+  width: 190px;
+  margin-bottom: 20px;
+}
+.inscribite-card__botton {
+  color: #fff;
+  padding: 10px 25px;
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.inscribite-card__botton:hover {
+  background-color: #fe0601;
+  color: #fff;
+}
+.inscribite-card__forms {
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .accion-smartlogo {
+    display: none;
+  }
+  #accion-desklogo {
+    display: block;
+  }
+  .navbar .nav-link {
+    transition: 0.7s;
+  }
+  .navbar .nav-link:hover {
+    color: rgb(108, 108, 108);
+  }
+  .navbar #navlink-red {
+    background-color: #fe0601;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+    margin-left: 8px;
+    transition: 0.7s;
+  }
+  .navbar #navlink-red:hover {
+    background-color: #fff;
+    color: #fe0601;
+  }
+  .inicio-coachs__img, .inicio-inst__img {
+    height: 400px;
+    width: 70%;
+  }
+  .inicio-coachs__img .inicio-enl, .inicio-inst__img .inicio-enl {
+    width: 40%;
+  }
+  .gimnasio-carousel {
+    height: 92vh;
+  }
+  .gimnasio-carousel .carousel-item__img {
+    height: 92vh;
+    filter: opacity(0.9);
+  }
+}
+@media screen and (min-width: 992px) {
+  .inicio-planes__card {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .inicio-coachs__img {
+    height: 500px;
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

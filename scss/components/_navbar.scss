@@ -1,0 +1,17 @@
+.navbar, .offcanvas{
+    background-color: $main-color;
+    padding: 10px;
+    
+}
+// logos NavBar//
+.accion-biglogo{
+    height: 40px;
+    width: 160px;
+}
+.accion-smartlogo{
+    height: 40px;
+    width: 70px;
+}
+#accion-desklogo{
+    display: none;
+}
